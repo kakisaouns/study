@@ -150,4 +150,4 @@ def parsemain(filepath):
 def generate_gototable(states):
     
 if __name__ == "__main__":
-    ret = parsemain("/home/takatama-a/myfile/c_cpp/test.txt")
+    ret = parsemain("test.txt")
