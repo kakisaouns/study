@@ -14,6 +14,6 @@ def print_method_area(node):
     for child in node.get_children():
         print_method_area(child)
 
-index = Index.create()
+index = Index.create() 
 tu = index.parse("test.cpp")
 print_method_area(tu.cursor)
